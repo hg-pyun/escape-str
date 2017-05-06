@@ -1,0 +1,19 @@
+{
+  "name": "escape-str",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haegul/escape-str.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haegul/escape-str/issues"
+  },
+  "homepage": "https://github.com/haegul/escape-str#readme"
+}
