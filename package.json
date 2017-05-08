@@ -1,19 +1,27 @@
 {
   "name": "escape-str",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.3",
+  "description": "escape string library",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/haegul/escape-str.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "string",
+    "esacpe"
+  ],
+  "author": "Haegul PYUN(dev-momo)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/haegul/escape-str/issues"
   },
-  "homepage": "https://github.com/haegul/escape-str#readme"
+  "homepage": "https://github.com/haegul/escape-str#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "webpack": "^2.5.1"
+  }
 }
