@@ -19,6 +19,22 @@ console.log('escape bracket', eStr);
 console.log('escape html', eHtmlStr);
 ```
 
+### Browser
+Use bundle file in dist folder.
+```javascript
+// html
+<script src="/dist/escape.min.js"></script>
+<script>
+    var str = "<script>alert('alert!'); &\'\"/<\/script>";
+    var eStr = Escape.bracket(str);
+    var eHtmlStr = Escape.html(str);
+
+    console.log('before', str);
+    console.log('escape bracket', eStr);
+    console.log('escape html', eHtmlStr);
+</script>
+```
+
 # LICENSE
 
 Copyright (c) 2017 Haegul, PYUN

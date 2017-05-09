@@ -5,7 +5,7 @@ module.exports = function (env) {
 
     let PHASE = env.phase;
 
-    let filename = (PHASE === 'development') ? 'escaper.js' : 'escaper.min.js';
+    let filename = (PHASE === 'development') ? 'escape.js' : 'escape.min.js';
     let isProduction = (PHASE !== 'development');
 
     return {
